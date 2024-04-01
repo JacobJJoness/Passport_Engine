@@ -1,0 +1,9 @@
+passport.owner_id=ENC-ID|MAC
+passport.owner_name=ENC-NAME+SALT|MAC
+passport.owner_dob=ENC-DOB|MAC
+passport.owner_vaccination_status=ENC-STATUS|MAC
+passport.owner_address=ENC-ADDRESS|MAC
+passport.vaccine_dov=ENC-DOV|MAC
+passport.vaccine_name=ENC-VACC-NAME|MAC
+passport.vaccine_administrator:=ENC-VACC-BY|MAC
+passport.vaccine_location=ENC-LOCATION|MAC

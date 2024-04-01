@@ -1,0 +1,9 @@
+passport.owner_id=1234
+passport.owner_name=Carlos Rubio-Medrano
+passport.owner_dob=10/28/?
+passport.owner_vaccination_status=Yes
+passport.owner_address=6300 Ocean Drive
+passport.vaccine_dov=3/1/2021
+passport.vaccine_name=Moderna
+passport.vaccine_administrator:=City of CC
+passport.vaccine_location=American Bank Center

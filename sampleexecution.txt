@@ -1,0 +1,13 @@
+vaccinepassport “create-symmetric-key mysymkey.txt”
+> vaccinepassport “create-asymmetric-key myprivkey.txt
+mypubkey.txt”
+> vaccinepassport “encrypt-field passport.owner_name ‘Carlos RubioMedrano’ mysymkey.txt”
+> passport.owner_name=“43fdfdfg23432efshrdfrte2egsdadaee242”
+> vaccinepassport “sign-field passport.owner_name
+‘43fdfdfg23432efshrdfrte2egsdadaee242’ myprivkey.txt”
+>passport.owner_name=“43fdfdfg23432efshrdfrte2egsdadaee242|fd3534sjkkh
+ukkhkhkhhu23422”
+> vaccinepassport “store-passport passport.txt enc-passport.txt
+mysymkey.txt myprivkey.txt”
+> vaccinepassport “retrieve-passport passport.txt enc-passport.txt
+mysymkey.txt mypubkey.txt”
